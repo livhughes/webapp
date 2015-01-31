@@ -1,0 +1,32 @@
+h1 {
+    color: #0066bb;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+p {
+    color: #0066bb;
+    background-color: #adadad;
+}
+
+body {
+    background-color: #adadad;
+}
+
+.veggie {
+    color: mediumseagreen;
+}
+
+.meat {
+    color: tomato;
+}
+
+.dessert {
+    color: peachpuff;
+}
+
+#frenchname {
+    font-style: italic;
+}
+

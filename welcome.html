@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>French Cuisine &#171; Le Bon d&icirc;ner &#187;</title>
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <div class="text-center">
+            <h1>French Cuisine <span id="frenchname">&#171;&nbsp;Le Bon d&icirc;ner&nbsp;&#187;</span></h1>
+
+            <p>An illusive experience of dining.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8" id="greeting">
+            <form id="greeting-form" class="form-inline">
+                <div class="form-group">
+                <label>What's your full name?</label>
+                <input type="text" name="fullName" class="form-control" placeholder="Bob">
+                </div>
+                <button  class="btn-info" type="submit">OK</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Make a booking enquiry</h2>
+        <div class="col-md-8" id="booking">
+            <form id="booking-form" method="post" action="/booking">
+
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="bookingName" class="form-control" placeholder="Bob" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="contact@lediner.com">
+                </div>
+                <button  class="btn-info" type="submit">OK</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+        <h2>Savour our:</h2>
+
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+        <div class="row page-header">
+            <a href="salade.html" class="veggie"><h2>Salades</h2></a>
+        </div>
+        <div class="row">
+            <p><img src="img/chevrechaud.jpg" class="img-rounded img-responsive center-block" alt="cheese"/></p>
+            <h4 class="text-center">Salade de chevre <span class="label label-success">Healthy choice</span></h4>
+        </div>
+        <div><p> </p></div>
+        <div class="row">
+            <p><img src="img/Salade-Nicoise.jpg" class="img-rounded img-responsive center-block" alt="cheese2"/></p>
+            <h4 class="text-center"> Salade Nicoise <span class="label label-success">Healthy choice</span></h4>
+        </div>
+
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="row page-header">
+            <a href="steack.html" class="meat"><h2>Steacks</h2></a>
+        </div>
+        <div class="row">
+            <p><img src="img/babycalf.jpg" class="img-rounded img-responsive center-block" alt="babycalf"/></p>
+            <h4 class="text-center">Beef Steack <span class="label label-danger">Not recommended</span></h4>
+        </div>
+        <div><p> </p></div>
+        <div class="row">
+            <p><img src="img/Unicorn.jpg" class="img-rounded img-responsive center-block" alt="babycalf"/></p>
+            <h4 class="text-center">Unicorn Steack <span class="label label-danger">Really?</span></h4>
+        </div>
+
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <div class="row page-header">
+            <a href="creme.html" class="dessert"><h2>Desserts</h2></a>
+        </div>
+        <div class="row">
+            <p><img src="img/creme.jpeg" class="img-rounded img-responsive center-block" alt="creme"/></p>
+            <h4 class="text-center">Cr&#232;me br&#251;l&#233;e <span class="label label-warning">Sweet Tooth</span>
+            </h4>
+        </div>
+
+    </div>
+    <!--
+        <div class="row">
+            <div class="col-xs-12 col-md-3 page-header"><a href="salade.html" class="veggie"><h2>Salades</h2></a></div>
+            <div class="col-xs-12 col-md-3 page-header"><a href="steack.html" class="meat"><h2>Steacks</h2></a></div>
+            <div class="col-xs-12 col-md-3 page-header"><a href="creme.html" class="dessert"><h2>Desserts</h2></a></div>
+            <div class="col-xs-12 col-md-3 page-header"><h2> Contact us</h2></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6"><p><img src="img/camembert.jpg" class="img-rounded img-responsive"  alt="cheese"/></p></div>
+            <div class="col-xs-12 col-md-6"><p><img src="img/chevrechaud.jpg" class="img-rounded img-responsive" alt="cheese"/></p></div>
+
+        </div>-->
+</div>
+
+<script src="jquery.js"></script>
+<script src="myfrontend.js"></script>
+</body>
+</html>
